@@ -35,6 +35,11 @@
     "sha256": "3e0edfbe434680fcc2c84e5b40534b300668adc26eeab4c035ecd4056879b052"
   },
   {
+    "file": "EchoMind/config/nginx/nginx.conf",
+    "bytes": 4500,
+    "sha256": "58df9ca46ddf4589df63bc4537689e223f4c3d0025022cef63adf0a2ff41dbf0"
+  },
+  {
     "file": "EchoMind/config/prometheus.yml",
     "bytes": 561,
     "sha256": "0ba284e25ab6868f88a78023fda9dadda4c30388e7df46e28434696f1a5ba339"
@@ -130,6 +135,11 @@
     "sha256": "c3ec7b0c67b0c1a10774a0088ebda4b1256b6517c580828ff2c9aaf8ead076c3"
   },
   {
+    "file": "EchoMindJava/.mvn/apache-maven-3.9.9/bin/m2.conf",
+    "bytes": 317,
+    "sha256": "462700eb43ade0fe2a6378dd09b9cf62b7db61b235970a2d89258b2bed11c339"
+  },
+  {
     "file": "EchoMindJava/.mvn/apache-maven-3.9.9/bin/mvn.cmd",
     "bytes": 6122,
     "sha256": "f71afaa081313f1ce9221d003aa0c352a289ffb64a11239afb04187be53199b6"
@@ -163,6 +173,11 @@
     "file": "EchoMindJava/Dockerfile",
     "bytes": 347,
     "sha256": "a33ec27f05c9c7f74a8dfea1b1bd3c407a1917865288d3e5e234dc79f148b0e9"
+  },
+  {
+    "file": "EchoMindJava/config/nginx/nginx.conf",
+    "bytes": 2250,
+    "sha256": "6d084f1890bc9124e614e3d15eda9e823ce2a68795d72d6d51649c50acb56c5d"
   },
   {
     "file": "EchoMindJava/config/prometheus.yml",
@@ -493,6 +508,16 @@
     "file": "EchoMindFrontend/docker/entrypoint.sh",
     "bytes": 230,
     "sha256": "ee0850211c59919c78b63d7101876230c7d5a862369cab85a8b134b0a4e91fd1"
+  },
+  {
+    "file": "EchoMindFrontend/docker/nginx-gateway.conf",
+    "bytes": 989,
+    "sha256": "5df4d3443adc47397cdfc13944c38ef125e2c4ec522e8398b732b57b9709f267"
+  },
+  {
+    "file": "EchoMindFrontend/docker/nginx.conf",
+    "bytes": 860,
+    "sha256": "cf21b1346d849e0e006ef388b68b1c097eb68fa031cdd4544fb2709a31d73c87"
   },
   {
     "file": "EchoMindFrontend/docker-compose.yml",
