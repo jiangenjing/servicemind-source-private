@@ -1,0 +1,547 @@
+[
+  {
+    "file": "EchoMind/.dockerignore",
+    "bytes": 226,
+    "sha256": "bade6b1b17c7e83314ce5db614c480fb3393d5fa82e2f640eaa8575dcaf347a9"
+  },
+  {
+    "file": "EchoMind/.gitignore",
+    "bytes": 322,
+    "sha256": "ff0d37769413969e9a3bd44b1c4dee6c60eb5ac9723a22fe165ca7d53a4271f2"
+  },
+  {
+    "file": "EchoMind/Dockerfile",
+    "bytes": 3273,
+    "sha256": "36a727c1229543c3c951c6b3c288c76f2704b6e85d667c2ecbd90c7e5f0812e8"
+  },
+  {
+    "file": "EchoMind/agents/agent_orchestrator.py",
+    "bytes": 48547,
+    "sha256": "d94313dccc413ea3e68ed34f1a2ab30b7affac2eb02fe48ab3139a0f63eb9cef"
+  },
+  {
+    "file": "EchoMind/agents/tools.py",
+    "bytes": 10875,
+    "sha256": "30eaf765c5d6bf5fb6e8c1550fa1cd508361f0566f27715d87fbfe0c26faebf2"
+  },
+  {
+    "file": "EchoMind/api/main.py",
+    "bytes": 24416,
+    "sha256": "3b01c3a771c708eb4ea1dcbc7a8ff5d8d30fb74cdce2181da37efba21d60bcff"
+  },
+  {
+    "file": "EchoMind/build-image.sh",
+    "bytes": 4855,
+    "sha256": "3e0edfbe434680fcc2c84e5b40534b300668adc26eeab4c035ecd4056879b052"
+  },
+  {
+    "file": "EchoMind/config/prometheus.yml",
+    "bytes": 561,
+    "sha256": "0ba284e25ab6868f88a78023fda9dadda4c30388e7df46e28434696f1a5ba339"
+  },
+  {
+    "file": "EchoMind/core/intent_recognizer.py",
+    "bytes": 22787,
+    "sha256": "4a84a233a86d0575e3188aefe8e4850b9b9176c51977141a57ab6f2e5e17ba98"
+  },
+  {
+    "file": "EchoMind/core/llm_utils.py",
+    "bytes": 756,
+    "sha256": "b0bf4cc194787b059a02c2049a773dceb1ff92df95f5d7d7bdc492ba355e93e7"
+  },
+  {
+    "file": "EchoMind/core/skill_loader.py",
+    "bytes": 12190,
+    "sha256": "26618d02cde5592955bd45b7a6752e6fbfa3e06de76ed325658f5257f142aaaf"
+  },
+  {
+    "file": "EchoMind/docker-compose.yml",
+    "bytes": 4903,
+    "sha256": "c5314854187da7c9f57f5592b9301ad5fcc8e848eae858a4ed8df219f09a25bb"
+  },
+  {
+    "file": "EchoMind/docker-deploy.sh",
+    "bytes": 7476,
+    "sha256": "32bd102cb9bb88c7ea1f2fe74be97cbbdccaaafcb82a338c869c0e700e47188d"
+  },
+  {
+    "file": "EchoMind/evaluation/evaluator.py",
+    "bytes": 19963,
+    "sha256": "0c320755e171987f49d42925c89326036201a49d5a93f073e1df4abb5bcfdc60"
+  },
+  {
+    "file": "EchoMind/mcp/knowledge_base.py",
+    "bytes": 11544,
+    "sha256": "5869466a02ebfe3115f5107a75a51832a5dee9a56131036a31eef3d656373750"
+  },
+  {
+    "file": "EchoMind/mcp/tool_manager.py",
+    "bytes": 19608,
+    "sha256": "f76b914a3565ddc44011ad9910cd99bcd054813d4845b724f5a8221bb8b3d09c"
+  },
+  {
+    "file": "EchoMind/memory/conversation_memory.py",
+    "bytes": 20015,
+    "sha256": "891e48cf92bb5b09d8fa1cf239cc30d05939f82da265033aa2b574e2e7c4f079"
+  },
+  {
+    "file": "EchoMind/monitor/performance_monitor.py",
+    "bytes": 13406,
+    "sha256": "40f0068eed4386efa591717915a7c8f68bf5d53c7d166c88d95d066290aa3d62"
+  },
+  {
+    "file": "EchoMind/requirements.txt",
+    "bytes": 1781,
+    "sha256": "bba3bdc81532cc6f95e1e4a0bdf8109ec5cb8f1012fbb131bc119360fe1de3c9"
+  },
+  {
+    "file": "EchoMind/run-image.sh",
+    "bytes": 8235,
+    "sha256": "3dc430aa1c04f7e1a34292163cc7ecde518d2eef7b8a3f675333e4f176930aa7"
+  },
+  {
+    "file": "EchoMind/skills/billing_support/SKILL.md",
+    "bytes": 6360,
+    "sha256": "60baeba56cb91d2113d529f999f2d14da67425ba11efdc5175c9cf90fbb7223f"
+  },
+  {
+    "file": "EchoMind/skills/general_customer_service/SKILL.md",
+    "bytes": 4497,
+    "sha256": "840a45efc7e35abc75b97c37bd47703de53a73ec8844ca29f342f5babddbe037"
+  },
+  {
+    "file": "EchoMind/skills/technical_support/SKILL.md",
+    "bytes": 5757,
+    "sha256": "7e730fb06966314f6530f478debe81bd2a854501f168c5406465df674dcb9cb6"
+  },
+  {
+    "file": "EchoMind/tests/test_agent_orchestrator.py",
+    "bytes": 7817,
+    "sha256": "4266b2bf6b6f021f8851b64177fd1e51974bda8fb0a7cb0cabdbaaa2411b030d"
+  },
+  {
+    "file": "EchoMindJava/.dockerignore",
+    "bytes": 83,
+    "sha256": "a933af99cc595bb7bfe8dc051e053df73bc2ae382488d2cf258b36d74e3ff34a"
+  },
+  {
+    "file": "EchoMindJava/.gitignore",
+    "bytes": 51,
+    "sha256": "c3ec7b0c67b0c1a10774a0088ebda4b1256b6517c580828ff2c9aaf8ead076c3"
+  },
+  {
+    "file": "EchoMindJava/.mvn/apache-maven-3.9.9/bin/mvn.cmd",
+    "bytes": 6122,
+    "sha256": "f71afaa081313f1ce9221d003aa0c352a289ffb64a11239afb04187be53199b6"
+  },
+  {
+    "file": "EchoMindJava/.mvn/apache-maven-3.9.9/bin/mvnDebug.cmd",
+    "bytes": 2124,
+    "sha256": "1b0d233f7d6a266d845db9eb3f3771b81c86b7ef5ede20a7d73933f8ac5554e3"
+  },
+  {
+    "file": "EchoMindJava/.mvn/apache-maven-3.9.9/conf/logging/simplelogger.properties",
+    "bytes": 1338,
+    "sha256": "42140f6ec135827bec255a2ebdfa11211387402d13296792ff40e56a96ceddf8"
+  },
+  {
+    "file": "EchoMindJava/.mvn/apache-maven-3.9.9/conf/settings.xml",
+    "bytes": 10528,
+    "sha256": "2f552325aedd9a9c9268df520be22cfe3aa86260b76a0f830d2796d2f0e22bd4"
+  },
+  {
+    "file": "EchoMindJava/.mvn/apache-maven-3.9.9/conf/toolchains.xml",
+    "bytes": 3645,
+    "sha256": "716a6e73e4b0131a72c7329cf7a9cbfb75afc3042ed732cd1862bdfcd89c1311"
+  },
+  {
+    "file": "EchoMindJava/.mvn/wrapper/maven-wrapper.properties",
+    "bytes": 233,
+    "sha256": "5537c380799ac68220f048657c754e38c332c776a2dcd4171df1ec96177c8572"
+  },
+  {
+    "file": "EchoMindJava/Dockerfile",
+    "bytes": 347,
+    "sha256": "a33ec27f05c9c7f74a8dfea1b1bd3c407a1917865288d3e5e234dc79f148b0e9"
+  },
+  {
+    "file": "EchoMindJava/config/prometheus.yml",
+    "bytes": 440,
+    "sha256": "68d370d4813bc876ba77ceb3448f8bc3668a21af9c74e60ad9bc29bf53d42661"
+  },
+  {
+    "file": "EchoMindJava/docker-compose.yml",
+    "bytes": 2511,
+    "sha256": "4bd09760367c9505b5d1779b22d0b12a06324ef9628cf5b79e55d863465408ea"
+  },
+  {
+    "file": "EchoMindJava/mvnw",
+    "bytes": 939,
+    "sha256": "e0348c4d86696ff05c3a47776169b5d190c4d08ef859a9f36feba4287cb025a8"
+  },
+  {
+    "file": "EchoMindJava/mvnw.cmd",
+    "bytes": 403,
+    "sha256": "d55ec376d69c88cd9ebcd65310052e84c7736dbab2d2882c3dd78c6d655db954"
+  },
+  {
+    "file": "EchoMindJava/pom.xml",
+    "bytes": 4873,
+    "sha256": "5c4ef87d5ed5f11600bce21540cc054aa04951723c361d99efdfb2d38a5bd192"
+  },
+  {
+    "file": "EchoMindJava/skills/billing_support/SKILL.md",
+    "bytes": 6360,
+    "sha256": "60baeba56cb91d2113d529f999f2d14da67425ba11efdc5175c9cf90fbb7223f"
+  },
+  {
+    "file": "EchoMindJava/skills/general_customer_service/SKILL.md",
+    "bytes": 4497,
+    "sha256": "840a45efc7e35abc75b97c37bd47703de53a73ec8844ca29f342f5babddbe037"
+  },
+  {
+    "file": "EchoMindJava/skills/technical_support/SKILL.md",
+    "bytes": 5757,
+    "sha256": "7e730fb06966314f6530f478debe81bd2a854501f168c5406465df674dcb9cb6"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/Main.java",
+    "bytes": 650,
+    "sha256": "df437f7fe68e6d93c399dbef2aa6d530b25fd33a16b6090214581a18ecacd64c"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/EchoMindJavaApplication.java",
+    "bytes": 328,
+    "sha256": "6569e48530f21fa0f48f2fe7f3a916e079505ec2bf8367997672c5873099fd4f"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/agent/AgentConfig.java",
+    "bytes": 725,
+    "sha256": "192178b179aca8e03875ed916b3e8bbe613e9a9a36e1b9b2cd4976d6d67c9913"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/agent/AgentOrchestrator.java",
+    "bytes": 20620,
+    "sha256": "54d86caaa7a1087c1ab6602109667636998fe1af8217b881ef4292d280fee976"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/agent/AgentRequest.java",
+    "bytes": 2680,
+    "sha256": "4de91551d815a93ab239195f8a08e594bdd8b1261f14346b42bda4f79c246e80"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/agent/AgentResponse.java",
+    "bytes": 356,
+    "sha256": "5efaf5194cdf50125ad13c83974674910818e204390ca9250a5fdab48e7a374b"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/agent/AgentStats.java",
+    "bytes": 1322,
+    "sha256": "113cc00ec8f1bb63ce1a2bf2657037df09a3316bb8920ad4a11528293c5d4e8b"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/agent/AgentType.java",
+    "bytes": 111,
+    "sha256": "248120f49e370e9aff14dcde1be7249913a257da7ada22b526bb062fc72a162e"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/agent/AnswerVerifier.java",
+    "bytes": 2039,
+    "sha256": "3829dbfb354549e265544ad8bf34b9b16665862eb7f25408bdd4953c6d776ac6"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/agent/BaseAgent.java",
+    "bytes": 2964,
+    "sha256": "fcaeec0dfb90247ae814db87dfeec1c2f58d9ce486f4cccd5ef42a8614d4c1a7"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/agent/BillingAgent.java",
+    "bytes": 588,
+    "sha256": "4e4a037058d723966c7e1ca0a529d042a10081fb873199f1db7c630ad787539c"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/agent/GeneralAgent.java",
+    "bytes": 586,
+    "sha256": "0a9710c0f585797536a69271aa831e974b97d6eb4ad2e5b1aaae62c2d18975b8"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/agent/OrchestratorResult.java",
+    "bytes": 584,
+    "sha256": "aca68d093da8827cecdb9acd312f894ca48833150123c588468c681b4bf385cf"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/agent/TechnicalAgent.java",
+    "bytes": 588,
+    "sha256": "2feb744bd24dc894d3adc24bffea2882e108812bc06bbd9621a23e155d5b252d"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/api/EchoMindController.java",
+    "bytes": 16049,
+    "sha256": "588b44649fc6db898387ec02d16e2c5173b52e828a171f4eec18b4fa6de36d4b"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/api/SwaggerDocsController.java",
+    "bytes": 1880,
+    "sha256": "b555b71ffd4f001f394d34d74e0ade44d6bbcdc483e063c744c42233d277b824"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/api/dto/BatchDocInput.java",
+    "bytes": 381,
+    "sha256": "8ceddae6ead605421009fee3af4edcb083f6bbf1a9a7fbebda18d8d2823ac4dc"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/api/dto/ChatRequest.java",
+    "bytes": 899,
+    "sha256": "3a7b7adfb312555430edd04ea870ad433e4c6882b649a2401fb638a29f063ae2"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/api/dto/ChatResponse.java",
+    "bytes": 2082,
+    "sha256": "370e940e38a7dd2bbcee6b58f762cd51f9eadb191b463131aac518587e850f95"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/api/dto/DocInput.java",
+    "bytes": 470,
+    "sha256": "2cb9821a4ee69885e34957c4a72ad48becae58da72889307596051757947ccb3"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/api/dto/EvalRunRequest.java",
+    "bytes": 1255,
+    "sha256": "988370347792a0e13c7ed7c02a7ab5b7277691ac71b6c871e4575c580831c8d5"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/config/AppConfig.java",
+    "bytes": 273,
+    "sha256": "753877b5ef53a60bb6bd108660d1d9a3fd55c5979019d7015a1c267e251d3ee3"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/config/AsyncConfig.java",
+    "bytes": 211,
+    "sha256": "9d2918c7ca3aa3753a951ed462860a7f6255516e24d6b3f7917a4122b25551c5"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/config/EchoMindProperties.java",
+    "bytes": 5101,
+    "sha256": "2fd5aad739945e039a23c38a28771e51e96b5e72a6861f00427131cc3df635ae"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/config/OpenApiConfig.java",
+    "bytes": 1089,
+    "sha256": "93623d5d537122827358801b8f788f076274c19ef1815fd79980181acfa61132"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/config/SchedulingConfig.java",
+    "bytes": 226,
+    "sha256": "bcf28bb008e5d77c2ad9348c5544804114d93952958bfef25a1c4337cc93a0d3"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/evaluation/EndToEndEvaluator.java",
+    "bytes": 11255,
+    "sha256": "628a904c33d994038dbd176d6847becfe69d6de9c9f86910a97f30e719ec6ef4"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/evaluation/LLMJudge.java",
+    "bytes": 2273,
+    "sha256": "1aeefb16c74fbb913d7276ca9243d7eeff1a76564932cd7dbaaa1995cea37e93"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/evaluation/QualityScores.java",
+    "bytes": 337,
+    "sha256": "4f189788b04695980a5336b185d0617aeb193863dec190181a83c0fa7534ae8d"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/intent/IntentCategory.java",
+    "bytes": 355,
+    "sha256": "ccf319ae864fa290b846785b9591dc4a0633303bc473bb7114e5cfbab0a487c4"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/intent/IntentRecognizer.java",
+    "bytes": 19461,
+    "sha256": "3dd56be623a25aa0ca02d6c3fd9b437fee14d53190b2e0b9adb0199cc4f0574f"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/intent/IntentResult.java",
+    "bytes": 361,
+    "sha256": "b2449391f62bf981e497bfb4bc8cb2092dbc13f7f19e9c33e2e0b92c03aa742b"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/intent/UrgencyLevel.java",
+    "bytes": 103,
+    "sha256": "970088b2cd19e05e798e1329f26c9484dd2be29350436595d4b9648dbf380847"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/knowledge/KnowledgeBaseService.java",
+    "bytes": 13745,
+    "sha256": "f9f9b10a876c066ebd439ab65ef7122af4d66cccc34d190c1d3b7e54162214c0"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/knowledge/KnowledgeDocument.java",
+    "bytes": 249,
+    "sha256": "4ddf329cc0e15f3e818e43473fd8a5283c722ddbd191070473058a8984e88c0f"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/knowledge/SearchResult.java",
+    "bytes": 233,
+    "sha256": "9ec21285f8f79cbee9c7cf757e1db979e19144e66450fbcd4c8f42d18130ac64"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/llm/LlmGateway.java",
+    "bytes": 152,
+    "sha256": "3ddf4c9241e96b77d4ca6ea8c928b04797f5e8917b33d9c21f11eacd3b8ff2c3"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/llm/SpringAiLlmGateway.java",
+    "bytes": 5023,
+    "sha256": "a6c80e4f8294960a27aeebe412a699ccd4f9b2df801dcbfe692b4952f6476c9f"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/memory/ConversationMessage.java",
+    "bytes": 234,
+    "sha256": "d4648b37fb320e865fdd4e6b9396db7fccfef635e2d698aa223e3157ae168bd4"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/memory/MemoryContext.java",
+    "bytes": 1624,
+    "sha256": "61f2d21285df6063b8fed282ce01f05224ccc91f844afae45066793242b6018c"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/memory/MemoryManager.java",
+    "bytes": 11918,
+    "sha256": "4eb9927fce3a160b0037b58f580f16dc4a4ee80ad13701dbc640928320243ccc"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/memory/MessageRole.java",
+    "bytes": 94,
+    "sha256": "878c261a640006764e30351835ddb4245a19ec9055309f3b49fe021713bcad4b"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/monitor/PerformanceMonitor.java",
+    "bytes": 5549,
+    "sha256": "071e0602b38dd22a3abc917c3c343e521e678a8b7f11f81244e07a99235371e5"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/skill/Skill.java",
+    "bytes": 1680,
+    "sha256": "29c0e0e8311e4a82afae3856cb209668b4724e9251c0940b4594dabcd6da6775"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/skill/SkillManager.java",
+    "bytes": 10570,
+    "sha256": "ef6e4864afd62e7c20f1963f23d515b7e4df99ba56c38bf1c8795fb9e473077a"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/tool/CircuitBreaker.java",
+    "bytes": 1217,
+    "sha256": "f97d810e5ca865c600e4c5b455d7c0cda4bebd3298537072e31f267f584b487f"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/tool/CircuitState.java",
+    "bytes": 93,
+    "sha256": "7696c618963ac775ce1fe632c1382fd98a52ac20c0e826a5d353f612b31121be"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/tool/KnowledgeToolManager.java",
+    "bytes": 8794,
+    "sha256": "a635e3561e793b01218c991af09a8fbc22371c03564fd3047d3bdb9319c594af"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/tool/ToolResult.java",
+    "bytes": 224,
+    "sha256": "fe58e5e8b22fa001ed77edfce2534def0c7536af7a86825f7e3e3c8a451d0e5a"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/tool/ToolStats.java",
+    "bytes": 835,
+    "sha256": "eb8ad59f3473588770901512b8484448369ea5294c7da9cd62f462919e7c6ae3"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/trace/RequestToolTrace.java",
+    "bytes": 519,
+    "sha256": "a0ebd1e6e3e04b38e77348a002490b95856c54e6c8cad2395ad7e6470ba5429b"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/trace/RequestTraceStore.java",
+    "bytes": 2650,
+    "sha256": "10f414463232605ccbaa77a9aed1a72971d30d411a793382e6e5fa2f0782dcdf"
+  },
+  {
+    "file": "EchoMindJava/src/main/java/com/echomind/trace/ToolCallTrace.java",
+    "bytes": 239,
+    "sha256": "67de54f468715a4300c41b03882c5263cb4ade46821cbdee0880f6cbf13cf82b"
+  },
+  {
+    "file": "EchoMindJava/src/main/resources/application.yml",
+    "bytes": 3012,
+    "sha256": "09fb21bbc0c6ac89d8175ec3e11e1b8c99fef41d811eb85d5d9f228c17ac3d44"
+  },
+  {
+    "file": "EchoMindFrontend/.dockerignore",
+    "bytes": 51,
+    "sha256": "f6e233564326f8fc767b097f36ad92f56c747883335344bced5d43598ebcf3e0"
+  },
+  {
+    "file": "EchoMindFrontend/.gitignore",
+    "bytes": 57,
+    "sha256": "cf32b42d37f4df08741807732f6b97eaa3429c0b3b8a89072a70896d413a4f4e"
+  },
+  {
+    "file": "EchoMindFrontend/Dockerfile",
+    "bytes": 344,
+    "sha256": "2d3cd601accde4eff9eed08b8c1aa70f8c898cbe67460026a62da991b7da9871"
+  },
+  {
+    "file": "EchoMindFrontend/docker/entrypoint.sh",
+    "bytes": 230,
+    "sha256": "ee0850211c59919c78b63d7101876230c7d5a862369cab85a8b134b0a4e91fd1"
+  },
+  {
+    "file": "EchoMindFrontend/docker-compose.yml",
+    "bytes": 3793,
+    "sha256": "6769a7ce09aa36445b9dd8f7ae56a8e68eab43f8c8288b18b884efa8623c679a"
+  },
+  {
+    "file": "EchoMindFrontend/index.html",
+    "bytes": 365,
+    "sha256": "29e0cc42442476a955fe9db80db5e98d6d99d7fe4c8777a752f35983858761a6"
+  },
+  {
+    "file": "EchoMindFrontend/package-lock.json",
+    "bytes": 42659,
+    "sha256": "067e11ef626ffae107d502b1aa42b0cb6e70590511267504f66812a13e3af32f"
+  },
+  {
+    "file": "EchoMindFrontend/package.json",
+    "bytes": 350,
+    "sha256": "7efffd21a0d26039cbd5e6061217b71df770960d5679d778f8998a9cddc55e28"
+  },
+  {
+    "file": "EchoMindFrontend/public/runtime-config.js",
+    "bytes": 90,
+    "sha256": "776f3bc61ed8e0bafc0815f88d423c7e81e4a4c929aba8ad6d0cc9c5306d7b20"
+  },
+  {
+    "file": "EchoMindFrontend/src/App.vue",
+    "bytes": 24700,
+    "sha256": "c12afc97e3f29c448a14a9143e566c659d778e90dc6edaa4ac307e226c8d0ab8"
+  },
+  {
+    "file": "EchoMindFrontend/src/lib/backends.js",
+    "bytes": 5995,
+    "sha256": "103b1af5f07ed9ee00e27335b7046f10045a8d113f7f8872094e6000d5beae4b"
+  },
+  {
+    "file": "EchoMindFrontend/src/main.js",
+    "bytes": 112,
+    "sha256": "e6989f43be872be95a6bcf4185151038b63e88fc2ff7b4a776b654b909804598"
+  },
+  {
+    "file": "EchoMindFrontend/src/styles.css",
+    "bytes": 24915,
+    "sha256": "96700212adda2b7dc8c6ae4e9523dc5a55aace96a9a6cdd64f03c5cab19ee985"
+  },
+  {
+    "file": "EchoMindFrontend/vite.config.js",
+    "bytes": 567,
+    "sha256": "fb0cb2ffe9cc19ffda7f4c6aa7332facda825382c82872be84176d1289414416"
+  }
+]
